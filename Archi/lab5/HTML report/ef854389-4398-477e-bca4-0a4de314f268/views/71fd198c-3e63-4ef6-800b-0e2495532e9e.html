@@ -1,0 +1,316 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Организационная структура</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>&#1054;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1072;&#1094;&#1080;&#1086;&#1085;&#1085;&#1072;&#1103; &#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1091;&#1088;&#1072;</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-organization"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_organization" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/71fd198c-3e63-4ef6-800b-0e2495532e9e.png" alt="Организационная структура" usemap="#71fd198c-3e63-4ef6-800b-0e2495532e9emap"/>
+			   <map name="71fd198c-3e63-4ef6-800b-0e2495532e9emap">
+				  		<area shape="rect" coords="574,394,694,449" href="../elements/84846e71-6184-4867-b578-385dad9bf5fa.html"  target="element">
+				  		<area shape="rect" coords="574,322,694,377" href="../elements/9a0f4b0b-22c9-42b6-8247-65ae6eb1ed78.html"  target="element">
+				  		<area shape="rect" coords="10,394,130,449" href="../elements/2110324a-b3c7-43a7-b3af-4520993e7c07.html"  target="element">
+				  		<area shape="rect" coords="10,322,130,377" href="../elements/8dd9d751-38d6-4a7b-a618-41b73d340716.html"  target="element">
+				  		<area shape="rect" coords="10,262,130,317" href="../elements/b3bb0ba1-c6e1-476e-a71f-7146d29483cd.html"  target="element">
+				  		<area shape="rect" coords="10,202,130,257" href="../elements/67ba3ca0-2780-4d8a-aede-7a39350a2f1a.html"  target="element">
+				  		<area shape="rect" coords="10,142,130,197" href="../elements/cbaa25ff-e2a2-4557-9106-9faa223c6fb6.html"  target="element">
+				  		<area shape="rect" coords="10,82,130,137" href="../elements/fdeb4591-0a31-4408-b79e-4a9dd0b1ed1f.html"  target="element">
+				  		<area shape="rect" coords="574,178,694,233" href="../elements/f0c5dc74-9361-4e53-b16f-0e33cff1481d.html"  target="element">
+				  				<area shape="rect" coords="261,394,381,449" href="../elements/b5ca6b4b-f380-4d0d-8b65-bc80fd913f25.html"  target="element">
+				  				<area shape="rect" coords="261,322,381,377" href="../elements/37151112-3958-4a01-ac45-adeb52ae42b4.html"  target="element">
+				  				<area shape="rect" coords="261,250,381,305" href="../elements/32a127b6-96a0-4808-b4eb-2f5ca58f172c.html"  target="element">
+				  				<area shape="rect" coords="261,178,381,233" href="../elements/3bc88d7f-c1a5-4957-a540-4f39104af02e.html"  target="element">
+				  				<area shape="rect" coords="261,58,381,113" href="../elements/e4ca69cb-3fbd-4571-9383-2781beeba9f3.html"  target="element">
+
+				  		<area shape="rect" coords="213,10,419,467" href="../elements/ad5a4d3d-5d45-46e0-9bf6-c3e91c498fb6.html"  target="element">
+				  		<area shape="rect" coords="10,22,130,77" href="../elements/ed44c386-a2bf-4150-a6c0-24ee500bfa45.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/ed44c386-a2bf-4150-a6c0-24ee500bfa45.html" target="element"> &#1052;&#1077;&#1085;&#1077;&#1076;&#1078;&#1077;&#1088; &#1087;&#1086; &#1079;&#1072;&#1082;&#1091;&#1087;&#1082;&#1072;&#1084; </a> </td>
+											    <td> <a href="../elements/ed44c386-a2bf-4150-a6c0-24ee500bfa45.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/ad5a4d3d-5d45-46e0-9bf6-c3e91c498fb6.html" target="element"> &#1055;&#1088;&#1077;&#1076;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1077; &#1084;&#1077;&#1083;&#1082;&#1086;&#1086;&#1087;&#1090;&#1086;&#1074;&#1086;&#1081; &#1080; &#1088;&#1086;&#1079;&#1085;&#1080;&#1095;&#1085;&#1086;&#1081; &#1090;&#1086;&#1088;&#1075;&#1086;&#1074;&#1083;&#1080; </a> </td>
+											    <td> <a href="../elements/ad5a4d3d-5d45-46e0-9bf6-c3e91c498fb6.html" target="element" class="i18n-elementtype-BusinessActor"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/e4ca69cb-3fbd-4571-9383-2781beeba9f3.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1089;&#1085;&#1072;&#1073;&#1078;&#1077;&#1085;&#1080;&#1103; </a> </td>
+													    <td> <a href="../elements/e4ca69cb-3fbd-4571-9383-2781beeba9f3.html" target="element" class="i18n-elementtype-BusinessActor"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/3bc88d7f-c1a5-4957-a540-4f39104af02e.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1089;&#1073;&#1099;&#1090;&#1072; </a> </td>
+													    <td> <a href="../elements/3bc88d7f-c1a5-4957-a540-4f39104af02e.html" target="element" class="i18n-elementtype-BusinessActor"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/32a127b6-96a0-4808-b4eb-2f5ca58f172c.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1084;&#1072;&#1088;&#1082;&#1077;&#1090;&#1080;&#1085;&#1075;&#1072; </a> </td>
+													    <td> <a href="../elements/32a127b6-96a0-4808-b4eb-2f5ca58f172c.html" target="element" class="i18n-elementtype-BusinessActor"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/37151112-3958-4a01-ac45-adeb52ae42b4.html" target="element"> &#1041;&#1091;&#1093;&#1075;&#1072;&#1083;&#1090;&#1077;&#1088;&#1080;&#1103; </a> </td>
+													    <td> <a href="../elements/37151112-3958-4a01-ac45-adeb52ae42b4.html" target="element" class="i18n-elementtype-BusinessActor"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/b5ca6b4b-f380-4d0d-8b65-bc80fd913f25.html" target="element"> &#1057;&#1082;&#1083;&#1072;&#1076; </a> </td>
+													    <td> <a href="../elements/b5ca6b4b-f380-4d0d-8b65-bc80fd913f25.html" target="element" class="i18n-elementtype-BusinessActor"> </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/f0c5dc74-9361-4e53-b16f-0e33cff1481d.html" target="element"> &#1054;&#1092;&#1080;&#1089; &#1086;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1072;&#1094;&#1080;&#1080; </a> </td>
+											    <td> <a href="../elements/f0c5dc74-9361-4e53-b16f-0e33cff1481d.html" target="element" class="i18n-elementtype-Location"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/fdeb4591-0a31-4408-b79e-4a9dd0b1ed1f.html" target="element"> &#1057;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1080;&#1089;&#1090; &#1087;&#1086; &#1088;&#1072;&#1073;&#1086;&#1090;&#1077; &#1089; &#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1097;&#1080;&#1082;&#1072;&#1084;&#1080; </a> </td>
+											    <td> <a href="../elements/fdeb4591-0a31-4408-b79e-4a9dd0b1ed1f.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/cbaa25ff-e2a2-4557-9106-9faa223c6fb6.html" target="element"> &#1052;&#1077;&#1085;&#1077;&#1076;&#1078;&#1077;&#1088; &#1087;&#1086; &#1087;&#1088;&#1086;&#1076;&#1072;&#1078;&#1072;&#1084; </a> </td>
+											    <td> <a href="../elements/cbaa25ff-e2a2-4557-9106-9faa223c6fb6.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/67ba3ca0-2780-4d8a-aede-7a39350a2f1a.html" target="element"> &#1057;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1080;&#1089;&#1090; &#1087;&#1086; &#1088;&#1072;&#1073;&#1086;&#1090;&#1077; &#1089; &#1082;&#1083;&#1080;&#1077;&#1085;&#1090;&#1072;&#1084;&#1080; </a> </td>
+											    <td> <a href="../elements/67ba3ca0-2780-4d8a-aede-7a39350a2f1a.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b3bb0ba1-c6e1-476e-a71f-7146d29483cd.html" target="element"> &#1040;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1082; </a> </td>
+											    <td> <a href="../elements/b3bb0ba1-c6e1-476e-a71f-7146d29483cd.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/8dd9d751-38d6-4a7b-a618-41b73d340716.html" target="element"> &#1041;&#1091;&#1093;&#1075;&#1072;&#1083;&#1090;&#1077;&#1088; </a> </td>
+											    <td> <a href="../elements/8dd9d751-38d6-4a7b-a618-41b73d340716.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/2110324a-b3c7-43a7-b3af-4520993e7c07.html" target="element"> &#1050;&#1083;&#1072;&#1076;&#1086;&#1074;&#1097;&#1080;&#1082; </a> </td>
+											    <td> <a href="../elements/2110324a-b3c7-43a7-b3af-4520993e7c07.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/9a0f4b0b-22c9-42b6-8247-65ae6eb1ed78.html" target="element"> &#1054;&#1092;&#1080;&#1089; &#1073;&#1091;&#1093;&#1075;&#1072;&#1083;&#1090;&#1077;&#1088;&#1072; </a> </td>
+											    <td> <a href="../elements/9a0f4b0b-22c9-42b6-8247-65ae6eb1ed78.html" target="element" class="i18n-elementtype-Location"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/84846e71-6184-4867-b578-385dad9bf5fa.html" target="element"> &#1057;&#1082;&#1083;&#1072;&#1076;&#1089;&#1082;&#1086;&#1077; &#1087;&#1086;&#1084;&#1077;&#1097;&#1077;&#1085;&#1080;&#1077; </a> </td>
+											    <td> <a href="../elements/84846e71-6184-4867-b578-385dad9bf5fa.html" target="element" class="i18n-elementtype-Location"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/99d7f26d-ec67-4f46-b58c-1c5de4ec44a8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/99d7f26d-ec67-4f46-b58c-1c5de4ec44a8.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/ad5a4d3d-5d45-46e0-9bf6-c3e91c498fb6.html" target="element"> &#1055;&#1088;&#1077;&#1076;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1077; &#1084;&#1077;&#1083;&#1082;&#1086;&#1086;&#1087;&#1090;&#1086;&#1074;&#1086;&#1081; &#1080; &#1088;&#1086;&#1079;&#1085;&#1080;&#1095;&#1085;&#1086;&#1081; &#1090;&#1086;&#1088;&#1075;&#1086;&#1074;&#1083;&#1080; </a> </td>
+																		<td> <a href="../elements/e4ca69cb-3fbd-4571-9383-2781beeba9f3.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1089;&#1085;&#1072;&#1073;&#1078;&#1077;&#1085;&#1080;&#1103; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/4e9e1101-866d-431a-b4dd-2964f374b951.html" target="element">  </a> </td>
+																		<td> <a href="../elements/4e9e1101-866d-431a-b4dd-2964f374b951.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/ad5a4d3d-5d45-46e0-9bf6-c3e91c498fb6.html" target="element"> &#1055;&#1088;&#1077;&#1076;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1077; &#1084;&#1077;&#1083;&#1082;&#1086;&#1086;&#1087;&#1090;&#1086;&#1074;&#1086;&#1081; &#1080; &#1088;&#1086;&#1079;&#1085;&#1080;&#1095;&#1085;&#1086;&#1081; &#1090;&#1086;&#1088;&#1075;&#1086;&#1074;&#1083;&#1080; </a> </td>
+																		<td> <a href="../elements/3bc88d7f-c1a5-4957-a540-4f39104af02e.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1089;&#1073;&#1099;&#1090;&#1072; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/91b478cc-5859-4ef9-841d-b5262e0f65c7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/91b478cc-5859-4ef9-841d-b5262e0f65c7.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/ad5a4d3d-5d45-46e0-9bf6-c3e91c498fb6.html" target="element"> &#1055;&#1088;&#1077;&#1076;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1077; &#1084;&#1077;&#1083;&#1082;&#1086;&#1086;&#1087;&#1090;&#1086;&#1074;&#1086;&#1081; &#1080; &#1088;&#1086;&#1079;&#1085;&#1080;&#1095;&#1085;&#1086;&#1081; &#1090;&#1086;&#1088;&#1075;&#1086;&#1074;&#1083;&#1080; </a> </td>
+																		<td> <a href="../elements/32a127b6-96a0-4808-b4eb-2f5ca58f172c.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1084;&#1072;&#1088;&#1082;&#1077;&#1090;&#1080;&#1085;&#1075;&#1072; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/bf6d08c6-892d-4ff2-a673-88f6e02b2b34.html" target="element">  </a> </td>
+																		<td> <a href="../elements/bf6d08c6-892d-4ff2-a673-88f6e02b2b34.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/ad5a4d3d-5d45-46e0-9bf6-c3e91c498fb6.html" target="element"> &#1055;&#1088;&#1077;&#1076;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1077; &#1084;&#1077;&#1083;&#1082;&#1086;&#1086;&#1087;&#1090;&#1086;&#1074;&#1086;&#1081; &#1080; &#1088;&#1086;&#1079;&#1085;&#1080;&#1095;&#1085;&#1086;&#1081; &#1090;&#1086;&#1088;&#1075;&#1086;&#1074;&#1083;&#1080; </a> </td>
+																		<td> <a href="../elements/37151112-3958-4a01-ac45-adeb52ae42b4.html" target="element"> &#1041;&#1091;&#1093;&#1075;&#1072;&#1083;&#1090;&#1077;&#1088;&#1080;&#1103; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/8fe2aea6-3775-4956-bbb2-48bc76d390a8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/8fe2aea6-3775-4956-bbb2-48bc76d390a8.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/ad5a4d3d-5d45-46e0-9bf6-c3e91c498fb6.html" target="element"> &#1055;&#1088;&#1077;&#1076;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1077; &#1084;&#1077;&#1083;&#1082;&#1086;&#1086;&#1087;&#1090;&#1086;&#1074;&#1086;&#1081; &#1080; &#1088;&#1086;&#1079;&#1085;&#1080;&#1095;&#1085;&#1086;&#1081; &#1090;&#1086;&#1088;&#1075;&#1086;&#1074;&#1083;&#1080; </a> </td>
+																		<td> <a href="../elements/b5ca6b4b-f380-4d0d-8b65-bc80fd913f25.html" target="element"> &#1057;&#1082;&#1083;&#1072;&#1076; </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/bf0b77a1-e6f4-4566-a3f0-8a754c0d984b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/bf0b77a1-e6f4-4566-a3f0-8a754c0d984b.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/e4ca69cb-3fbd-4571-9383-2781beeba9f3.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1089;&#1085;&#1072;&#1073;&#1078;&#1077;&#1085;&#1080;&#1103; </a> </td>
+																				<td> <a href="../elements/ed44c386-a2bf-4150-a6c0-24ee500bfa45.html" target="element"> &#1052;&#1077;&#1085;&#1077;&#1076;&#1078;&#1077;&#1088; &#1087;&#1086; &#1079;&#1072;&#1082;&#1091;&#1087;&#1082;&#1072;&#1084; </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/ce6cad82-087a-4dbc-aa0e-a7a110a6af58.html" target="element">  </a> </td>
+																				<td> <a href="../elements/ce6cad82-087a-4dbc-aa0e-a7a110a6af58.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/e4ca69cb-3fbd-4571-9383-2781beeba9f3.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1089;&#1085;&#1072;&#1073;&#1078;&#1077;&#1085;&#1080;&#1103; </a> </td>
+																				<td> <a href="../elements/fdeb4591-0a31-4408-b79e-4a9dd0b1ed1f.html" target="element"> &#1057;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1080;&#1089;&#1090; &#1087;&#1086; &#1088;&#1072;&#1073;&#1086;&#1090;&#1077; &#1089; &#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1097;&#1080;&#1082;&#1072;&#1084;&#1080; </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/bc69bb62-74a4-4127-8f51-af4ada849bf0.html" target="element">  </a> </td>
+																				<td> <a href="../elements/bc69bb62-74a4-4127-8f51-af4ada849bf0.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/3bc88d7f-c1a5-4957-a540-4f39104af02e.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1089;&#1073;&#1099;&#1090;&#1072; </a> </td>
+																				<td> <a href="../elements/cbaa25ff-e2a2-4557-9106-9faa223c6fb6.html" target="element"> &#1052;&#1077;&#1085;&#1077;&#1076;&#1078;&#1077;&#1088; &#1087;&#1086; &#1087;&#1088;&#1086;&#1076;&#1072;&#1078;&#1072;&#1084; </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/ccbb1177-cde8-4a0f-bd63-6e455cd6ab28.html" target="element">  </a> </td>
+																				<td> <a href="../elements/ccbb1177-cde8-4a0f-bd63-6e455cd6ab28.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/3bc88d7f-c1a5-4957-a540-4f39104af02e.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1089;&#1073;&#1099;&#1090;&#1072; </a> </td>
+																				<td> <a href="../elements/67ba3ca0-2780-4d8a-aede-7a39350a2f1a.html" target="element"> &#1057;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1080;&#1089;&#1090; &#1087;&#1086; &#1088;&#1072;&#1073;&#1086;&#1090;&#1077; &#1089; &#1082;&#1083;&#1080;&#1077;&#1085;&#1090;&#1072;&#1084;&#1080; </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/be2d1ec2-1313-4ead-8380-d16ad2e8ed20.html" target="element">  </a> </td>
+																				<td> <a href="../elements/be2d1ec2-1313-4ead-8380-d16ad2e8ed20.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/32a127b6-96a0-4808-b4eb-2f5ca58f172c.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1084;&#1072;&#1088;&#1082;&#1077;&#1090;&#1080;&#1085;&#1075;&#1072; </a> </td>
+																				<td> <a href="../elements/b3bb0ba1-c6e1-476e-a71f-7146d29483cd.html" target="element"> &#1040;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1082; </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/3b1998ac-d284-4e37-aa2a-0d52e3f6e7fc.html" target="element">  </a> </td>
+																				<td> <a href="../elements/3b1998ac-d284-4e37-aa2a-0d52e3f6e7fc.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/37151112-3958-4a01-ac45-adeb52ae42b4.html" target="element"> &#1041;&#1091;&#1093;&#1075;&#1072;&#1083;&#1090;&#1077;&#1088;&#1080;&#1103; </a> </td>
+																				<td> <a href="../elements/8dd9d751-38d6-4a7b-a618-41b73d340716.html" target="element"> &#1041;&#1091;&#1093;&#1075;&#1072;&#1083;&#1090;&#1077;&#1088; </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/79ca3881-b779-45c7-a9c2-1d302d767dee.html" target="element">  </a> </td>
+																				<td> <a href="../elements/79ca3881-b779-45c7-a9c2-1d302d767dee.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/b5ca6b4b-f380-4d0d-8b65-bc80fd913f25.html" target="element"> &#1057;&#1082;&#1083;&#1072;&#1076; </a> </td>
+																				<td> <a href="../elements/2110324a-b3c7-43a7-b3af-4520993e7c07.html" target="element"> &#1050;&#1083;&#1072;&#1076;&#1086;&#1074;&#1097;&#1080;&#1082; </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/ba21ad87-898c-4055-b14e-e381a7fa3cee.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ba21ad87-898c-4055-b14e-e381a7fa3cee.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/f0c5dc74-9361-4e53-b16f-0e33cff1481d.html" target="element"> &#1054;&#1092;&#1080;&#1089; &#1086;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1072;&#1094;&#1080;&#1080; </a> </td>
+																		<td> <a href="../elements/3bc88d7f-c1a5-4957-a540-4f39104af02e.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1089;&#1073;&#1099;&#1090;&#1072; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/820ce238-32b3-4595-afcf-fc272653ca23.html" target="element">  </a> </td>
+																		<td> <a href="../elements/820ce238-32b3-4595-afcf-fc272653ca23.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/f0c5dc74-9361-4e53-b16f-0e33cff1481d.html" target="element"> &#1054;&#1092;&#1080;&#1089; &#1086;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1072;&#1094;&#1080;&#1080; </a> </td>
+																		<td> <a href="../elements/e4ca69cb-3fbd-4571-9383-2781beeba9f3.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1089;&#1085;&#1072;&#1073;&#1078;&#1077;&#1085;&#1080;&#1103; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/14b3ff50-378e-4ee1-8c17-15252f9c5f2c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/14b3ff50-378e-4ee1-8c17-15252f9c5f2c.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/f0c5dc74-9361-4e53-b16f-0e33cff1481d.html" target="element"> &#1054;&#1092;&#1080;&#1089; &#1086;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1072;&#1094;&#1080;&#1080; </a> </td>
+																		<td> <a href="../elements/32a127b6-96a0-4808-b4eb-2f5ca58f172c.html" target="element"> &#1054;&#1090;&#1076;&#1077;&#1083; &#1084;&#1072;&#1088;&#1082;&#1077;&#1090;&#1080;&#1085;&#1075;&#1072; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/d6795923-5aa2-4372-b5e6-38d443882a13.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d6795923-5aa2-4372-b5e6-38d443882a13.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/9a0f4b0b-22c9-42b6-8247-65ae6eb1ed78.html" target="element"> &#1054;&#1092;&#1080;&#1089; &#1073;&#1091;&#1093;&#1075;&#1072;&#1083;&#1090;&#1077;&#1088;&#1072; </a> </td>
+																		<td> <a href="../elements/37151112-3958-4a01-ac45-adeb52ae42b4.html" target="element"> &#1041;&#1091;&#1093;&#1075;&#1072;&#1083;&#1090;&#1077;&#1088;&#1080;&#1103; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/62f5d340-8fea-413b-8c31-70df78b59473.html" target="element">  </a> </td>
+																		<td> <a href="../elements/62f5d340-8fea-413b-8c31-70df78b59473.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/84846e71-6184-4867-b578-385dad9bf5fa.html" target="element"> &#1057;&#1082;&#1083;&#1072;&#1076;&#1089;&#1082;&#1086;&#1077; &#1087;&#1086;&#1084;&#1077;&#1097;&#1077;&#1085;&#1080;&#1077; </a> </td>
+																		<td> <a href="../elements/b5ca6b4b-f380-4d0d-8b65-bc80fd913f25.html" target="element"> &#1057;&#1082;&#1083;&#1072;&#1076; </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
